@@ -1,4 +1,4 @@
-FROM alpine
+FROM frolvlad/alpine-glibc
 
 MAINTAINER johnroot hnesd@qq.com
 RUN apk add gdb
